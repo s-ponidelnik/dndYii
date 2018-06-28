@@ -1,0 +1,15 @@
+.map-item.sep {
+    clear: both;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.map-item.min-img {
+    float: left;
+    padding: 10px;
+}
+.map-item.min-img .map-min-img{
+    width:280px;
+    border:1px;
+    border-radius:10px;
+}

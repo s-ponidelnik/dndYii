@@ -1,0 +1,47 @@
+.disabled-info-text-label {
+    color: grey;
+    font-style: italic;
+}
+
+a.character-items-widget-name {
+    text-decoration: none;
+}
+
+.character-items-widget-block {
+
+}
+
+.character-items-widget-element {
+    min-width: 100%;
+}
+
+.character-items-widget-name.packable::before {
+    font-family: 'Glyphicons Halflings';
+    content: "\e081";
+}
+
+.character-items-widget-name.packable.active::before {
+    font-family: 'Glyphicons Halflings';
+    content: "\e082";
+}
+
+.character-items-widget-name {
+
+}
+
+.character-items-widget-sub-items-block {
+
+}
+
+.sub-items-block {
+    /*полупрозрач*/
+}
+.sub-items-block .character-items-widget-block .character-items-widget-element{
+    margin-left: 10px;
+}
+.character-item-badge-count{
+    border-radius: 10px;
+    padding: 0px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}

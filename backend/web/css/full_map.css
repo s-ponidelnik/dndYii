@@ -1,0 +1,39 @@
+.collapse.navbar-collapse{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.navbar-brand{
+    padding-left: 30px;
+}
+.ctr-btn:hover{
+    color:#00cc00;
+    cursor:pointer;
+}
+.container{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+#map_container{
+
+    cursor:default;
+}
+body,html{
+    padding: 0px;
+    margin: 0px;
+}
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+.wrap,.container{
+    width: 100%!important;
+    height: 100%!important;
+}
+.marker-link{
+    cursor: pointer;
+}

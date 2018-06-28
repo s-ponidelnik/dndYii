@@ -1,0 +1,584 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:700,400,500,300);
+
+.spells{
+
+}
+[data-toggle="tooltip"]{
+    cursor: help;
+}
+.spells-table{
+    border: 0px;
+    width: 100%;
+}
+.spells-table th{
+    text-align: center;
+}
+.spells-table tr{
+
+}
+.spells-table td{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+#msg_container {
+    width: 30%;
+    max-width: 30%;
+    left:0%;
+    float: right;
+    position: fixed;
+    z-index: 1000;
+}
+
+.block .name {
+    text-align: center;
+}
+
+.wrap {
+
+}
+
+.info-panel .block {
+    text-align: center;
+    font-family: "Roboto Condensed", Roboto, Helvetica, sans-serif !important;
+}
+
+.character-name {
+    padding-left: 5px;
+}
+
+.character-avatar {
+    margin-right: 10px;
+}
+
+.block-container {
+    font-family: "Roboto Condensed", Roboto, Helvetica, sans-serif !important;
+    padding: 5px;
+}
+
+.block-container .content {
+    background-color: #747d844d;
+    background: url("https://inspirationhut.net/wp-content/uploads/2012/11/Old-Paper-Texture-3.jpg") repeat-y top !important;
+}
+
+.info-panel {
+    background: url("http://www.twitrcovers.com/wp-content/uploads/2014/05/Fantasy-Art-Dragon-l.jpg") no-repeat center !important;
+    background-color: #00085d66;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+.container-content {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 500px;
+    padding: 5px;
+    text-align: center;
+}
+
+.skills .title {
+
+    background: url("http://www.twitrcovers.com/wp-content/uploads/2014/06/Fantasy-Art-Dragon-l.jpg") no-repeat center !important;
+    background-size: 379px !important;
+    background-position-y: -43px !important;
+}
+
+.ability-container .title {
+    background: url("http://www.twitrcovers.com/wp-content/uploads/2013/03/video-games-fantasy-art-l.jpg") no-repeat center !important;
+    background-size: 379px !important;
+    background-position-y: -43px !important;
+}
+
+.weapons .title {
+    background: url("http://www.twitrcovers.com/wp-content/uploads/2014/06/Fantasy-Dragon-l.jpg") no-repeat center !important;
+    background-size: cover !important;
+    background-position-y: 0px !important;
+}
+
+.talents .title {
+    background: url("http://www.twitrcovers.com/wp-content/uploads/2013/01/Sunset-Fantasy-Art-l.jpg") no-repeat center !important;
+    background-size: 379px !important;
+    background-position-y: -65px !important;
+}
+
+.spells .title {
+    background: url("http://dnd.wizards.com/sites/default/files/media/styles/inline_blocks/public/images/inline-block/03_NEW-TO-DnD_Monsters_InlineR_MonstersGeneral_0.jpg?itok=DxnzJbQk") no-repeat center !important;
+    background-size: 379px !important;
+    background-position-y: -44px !important;
+}
+
+.notes .title {
+    background: url("http://dnd.wizards.com/sites/default/files/media/styles/inline_blocks/public/images/inline-block/03_NEW-TO-DnD_Races_InlineR_RacesGeneral.jpg?itok=0KoOewC4") no-repeat center !important;
+    background-size: 378px !important;
+    background-position-y: 1px !important;
+    background-position-x: 1px !important;
+}
+
+.block-container .content .title {
+    color: white;
+    background-color: #283039;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", Roboto, Helvetica, sans-serif !important;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    outline-color: rgb(255, 255, 255);
+    outline-style: none;
+    outline-width: 0px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    text-align: left;
+}
+
+.block-container .content {
+    border-collapse: collapse;
+    border-spacing: 0px 0px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18.2px;
+    outline-color: rgb(0, 0, 0);
+    outline-style: none;
+    outline-width: 0px;
+}
+
+.name.tenPxSize {
+    font-size: 10px !important;
+}
+
+.block-container .content .container-content ul li {
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    font-family: "Roboto Condensed", Roboto, Helvetica, sans-serif !important;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    outline-color: rgb(0, 0, 0);
+    outline-style: none;
+    outline-width: 0px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 8px;
+    text-align: left;
+    vertical-align: middle;
+}
+.use-number-input{
+    width: 70px;
+}
+.block-container .content .container-content ul li span {
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18.2px;
+    outline-color: rgb(0, 0, 0);
+    outline-style: none;
+    outline-width: 0px;
+    padding-bottom: 8px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 8px;
+    vertical-align: middle;
+}
+
+.character-ability-proficiency-marker.active {
+    background-color: rgb(150, 191, 107);
+    height: 1px;
+    padding: 5px !important;
+    width: 1px;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+.skill-expertise-marker.active {
+    background-color: rgb(26, 99, 209);
+    height: 1px;
+    padding: 5px !important;
+    width: 1px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0px;
+}
+
+.skill-expertise-marker.disable {
+
+}
+
+.skill-proficiency-marker.disable {
+
+}
+
+li {
+    padding: 0px;
+    margin: 0px;
+}
+
+.skill-proficiency-marker.active {
+    margin: 0px;
+    background-color: rgb(150, 191, 107);
+    height: 1px;
+    padding: 5px !important;
+    width: 1px;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+.content {
+    min-height: 601px;
+}
+
+.skill-item .name, .skill-item .sub-info-label {
+}
+
+.skill-item .name, .skill-item .sub-info-label {
+    font-size: 12px;
+}
+
+.skill-lists {
+
+}
+
+.ability-additional-info {
+    margin: 10px;
+    padding: 15px;
+}
+
+.ability-container {
+    padding: 5px;
+}
+
+.block-container.skills {
+
+}
+
+.skill-item {
+
+}
+
+.skill-item .modifier {
+    margin-top: 5px;
+    padding: 0px !important;
+
+}
+
+.character-weapons {
+    padding: 10px;
+    font-size: 15px;
+}
+
+.skill-lists li {
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+.character-ability-proficiency-marker.disable {
+
+}
+
+.block-container .content .container-content .icon {
+
+    display: inline-block;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18.2px;
+    outline-color: rgb(0, 0, 0);
+    outline-style: none;
+    outline-width: 0px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 8px;
+    vertical-align: middle;
+}
+
+.block-container .content .container-content .value {
+    display: inline-block;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    font-family: "Roboto Condensed", Roboto, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    outline-color: rgb(0, 0, 0);
+    outline-style: none;
+    outline-width: 0px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 8px;
+    vertical-align: middle;
+}
+
+.inspiration-btn {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.block .hit-points {
+    background-color: #080e0b66;
+    color: #123123;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.block .hit-points .count {
+    display: block;
+    color: #f1fff9b3;
+}
+
+.current-hit-points {
+    font-size: 40px !important;
+}
+
+.max-hit-points {
+    font-size: 20px !important;
+}
+.spell-count{
+    font-family: "Roboto Condensed", Roboto, Helvetica, sans-serif;
+    line-height: 28px;
+    font-size: 20px;
+}
+.block .count {
+    font-size: 30px;
+}
+
+.block-container .content .container-content .name, .name {
+    display: inline-block;
+    font-family: "Roboto Condensed", Roboto, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    outline-color: rgb(0, 0, 0);
+    outline-style: none;
+    outline-width: 0px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 8px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.block-container .content .container-content .count, .count {
+    border-collapse: collapse;
+    border-spacing: 0px 0px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-family: "Roboto Condensed", Roboto, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    outline-color: rgb(0, 0, 0);
+    outline-style: none;
+    outline-width: 0px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.info-label {
+    border-collapse: collapse;
+    border-spacing: 0px 0px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-family: "Roboto Condensed", Roboto, Helvetica, sans-serif;
+    font-size: 10px;
+    line-height: 14px;
+    outline-color: rgb(0, 0, 0);
+    outline-style: none;
+    outline-width: 0px;
+    padding-right: 6px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.block-container .content .container-content .saving-throw {
+
+}
+
+.block-container .content .container-content .modifier {
+
+}
+
+.block-container .content .container-content .saving-throw-status {
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18.2px;
+    outline-color: rgb(0, 0, 0);
+    outline-style: none;
+    outline-width: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    vertical-align: middle;
+}
+
+.left-column {
+    text-align: left;
+}
+
+.right-column {
+    text-align: right;
+}
+
+.icon {
+    background-origin: padding-box;
+    background-position: 50% 50%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: 20px auto;
+    border-collapse: collapse;
+    border-spacing: 0px 0px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 13px;
+    height: 18px;
+    line-height: 18.2px;
+    outline-color: rgb(0, 0, 0);
+    outline-style: none;
+    outline-width: 0px;
+    vertical-align: middle;
+    width: 18px;
+    background-image: url("http://uploads.dnd/str-ability-icon.svg");
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: "\e151";
+}
+
+a.desc:after {
+    content: "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view td {
+    white-space: nowrap;
+}
+
+.grid-view .filters input,
+.grid-view .filters select {
+    min-width: 50px;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media (max-width: 767px) {
+    .nav li > form > button.logout {
+        display: block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
